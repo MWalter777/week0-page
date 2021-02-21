@@ -173,17 +173,23 @@ body{
 }
 
 .all-images{
-    display: inline-grid;
     width: 100%;
+    display: inline-grid;
     grid-template-columns: auto auto auto auto auto auto;
-    column-gap: 10px;
+    justify-items: stretch;
+    column-gap: 15px;
     row-gap: 15px;
 }
 
 
-.all-images img{
-    max-width: 150px;
-    background-color: #16F22B;
+.item-image{
+    background-color: #FFF;
+    max-height: 150px;
+}
+
+.item-image img{
+    width: 100%;
+    height: 100%;
 }
 
 @media (max-width: 560px) {
@@ -199,6 +205,10 @@ body{
     .prices{
         margin-top: 1rem;
         width: 100%;
+    }
+
+    .all-images{
+        grid-template-columns: auto auto auto;
     }
 
 }
