@@ -1,5 +1,6 @@
 body{
     background: linear-gradient(to right, #E5F9E8,#AFF0B8) no-repeat;
+    font-family: system-ui;
 }
 
 .content{
@@ -129,7 +130,7 @@ body{
 }
 
 .description-product{
-    margin-left: 5rem;
+    margin-left: 8rem;
 }
 
 .description-product button{
@@ -179,6 +180,7 @@ body{
     justify-items: stretch;
     column-gap: 15px;
     row-gap: 15px;
+    margin-bottom: 2rem;
 }
 
 
