@@ -174,11 +174,8 @@ body{
 }
 
 .all-images{
-    width: 100%;
-    display: inline-grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(2, 2fr);
-    justify-items: stretch;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     column-gap: 15px;
     row-gap: 15px;
     margin-bottom: 2rem;
@@ -208,10 +205,6 @@ body{
     .prices{
         margin-top: 1rem;
         width: 100%;
-    }
-
-    .all-images{
-        grid-template-columns: repeat(2, 2fr);
     }
 
 }
